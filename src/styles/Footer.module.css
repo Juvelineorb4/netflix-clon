@@ -1,0 +1,47 @@
+.footer {
+    margin-top: 2rem;
+    border-top: 1px solid var(--white-soft);
+    width: 100vw;
+  
+}
+
+
+.footerContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+
+.footer .links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+}
+
+.footer .links div {
+    color: #808080;
+    font-size: 15px;
+}
+
+
+.socialButtons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.socialButtons .button {
+    color: #808080;
+    font-size: 40px;
+}
+
+.footer .copyRight {
+    color: #808080;
+    margin-top: 2rem;
+    margin-bottom: 10;
+    font-size: 11px;
+}

@@ -61,6 +61,89 @@ export const hero = {
     },
   },
 };
+export const footer = {
+  buttons:
+    [
+      {
+        id: "btn-1",
+        link: "www.twitter.com",
+        icon: "bx bxl-twitter"
+      },
+      {
+        id: "btn-2",
+        link: "www.facebook.com",
+        icon: "bx bxl-facebook-square"
+      },
+      {
+        id: "btn-3",
+        link: "www.instagram.com",
+        icon: "bx bxl-instagram"
+      },
+      {
+        id: "btn-4",
+        link: "www.youtube.com",
+        icon: "bx bxl-youtube"
+      }
+    ],
+  links: [
+    {
+      id: "footer-link-1",
+      title: "Descritive Audio",
+      link: "descriptive-auido",
+    },
+    {
+      id: "footer-link-2",
+      title: "Gift cards",
+      link: "gift-cards",
+    },
+    {
+      id: "footer-link-3",
+      title: "Press",
+      link: "press",
+    },
+    {
+      id: "footer-link-4",
+      title: "Investor Relations",
+      link: "investor-relations",
+    },
+    {
+      id: "footer-link-5",
+      title: "Employment",
+      link: "employment",
+    },
+    {
+      id: "footer-link-6",
+      title: "Terms of use",
+      link: "terms-of-use",
+    },
+    {
+      id: "footer-link-7",
+      title: "Privacy",
+      link: "privacy",
+    },
+    {
+      id: "footer-link-8",
+      title: "Legal notices",
+      link: "legal-notices",
+    },
+    {
+      id: "footer-link-9",
+      title: "Cookies preferences",
+      link: "cookies-preferences",
+    },
+    {
+      id: "footer-link-10",
+      title: "Corporative information",
+      link: "corporative-infomation",
+    },
+    {
+      id: "footer-link-11",
+      title: "Contact us",
+      link: "contact-us",
+    },
+
+  ]
+}
 
 export const slider = [
   {
@@ -411,5 +494,36 @@ export const slider = [
   },
 ];
 
+export const faq = {
+  title: "Frequent questions",
+  questions: [
+    {
+      id: "q-1",
+      title: "What is Netflix?",
+      answer: "Netflix is ​​a streaming service that offers a wide variety of award-winning movies, series and documentaries on almost any screen connected to the Internet."
+    },
+    {
+      id: "q-2",
+      title: "How much does netflix cost?",
+      answer: "Enjoy Netflix on your smartphone, tablet, smart TV, laptop or streaming device, all for one flat monthly fee. Plans from $16,900 to $38,900 per month. No additional costs or contracts."
+    },
+    {
+      id: "q-3",
+      title: "Where can I watch netflix?",
+      answer: "Enjoy where you want, when you want. Sign in to your Netflix account to watch content instantly via netflix.com from your personal computer or any internet-connected device that has the Netflix app, including smart TVs, smartphones, tablets, media players, and game consoles of games."
+    },
 
+  ]
+}
 
+export const emailForm = {
+  title: "Do you want to watch Netflix now? Enter your email to create an account or restart your Netflix membership.",
+  label: {
+    error: "invalid email",
+    placeHolder: "Email"
+  },
+  button: {
+    text: "Start",
+    icon: "bx bx-chevron-right"
+  },
+}

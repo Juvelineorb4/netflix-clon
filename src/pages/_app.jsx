@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import Head from "next/head";
-import { Navbar } from "@/components";
+import { Navbar, Footer } from "@/components";
 
 const App = ({ Component, pageProps }) => (
   <>
@@ -14,6 +14,7 @@ const App = ({ Component, pageProps }) => (
     </Head>
     <Navbar />
     <Component {...pageProps} />
+    <Footer />
   </>
 );
 

@@ -25,11 +25,13 @@
   padding: 0;
   margin: 0;
 }
+
 html {
   scroll-behavior: smooth;
   font-family: var(--font);
   background-color: var(--black);
 }
+
 body {
   overflow-x: hidden;
 }
